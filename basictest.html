@@ -4,24 +4,24 @@
 	</header>
 <body>
 <script type='text/javascript'>
-	function initEmbeddedMessaging() {
-		try {
-			embeddedservice_bootstrap.settings.language = 'pt_BR'; // For example, enter 'en' or 'en-US'
+    function initEmbeddedMessaging() {
+        try {
+            embeddedservice_bootstrap.settings.language = 'pt_BR'; // For example, enter 'en' or 'en-US'
 
-			embeddedservice_bootstrap.init(
-				'00D880000038Cgb',
-				'Chatbot_Beneficios',
-				'https://ifoodatendimento--developer.sandbox.my.site.com/ESWChatbotBeneficios1734532967435',
-				{
-					scrt2URL: 'https://ifoodatendimento--developer.sandbox.my.salesforce-scrt.com'
-				}
-			);
-		} catch (err) {
-			console.error('Error loading Embedded Messaging: ', err);
-		}
-	};
+            embeddedservice_bootstrap.init(
+                '00D880000038Cgb',
+                'Beneficios_Teste',
+                'https://ifoodatendimento--developer.sandbox.my.site.com/ESWBeneficiosTeste1734560065695',
+                {
+                    scrt2URL: 'https://ifoodatendimento--developer.sandbox.my.salesforce-scrt.com'
+                }
+            );
+        } catch (err) {
+            console.error('Error loading Embedded Messaging: ', err);
+        }
+    };
 </script>
-<script type='text/javascript' src='https://ifoodatendimento--developer.sandbox.my.site.com/ESWChatbotBeneficios1734532967435/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+<script type='text/javascript' src='https://ifoodatendimento--developer.sandbox.my.site.com/ESWBeneficiosTeste1734560065695/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 </body>
 </html>
 
